@@ -21,7 +21,7 @@ export default function MyNav({ scrollToggle }) {
             <Navbar expand="lg" className={`nav__Bg ${scrollToggle ? "nav__fixed py-3 navTransformationDown" : "nav__absolute pb-3"} align-items-center`}>
                 <Container>
                     <Navbar.Brand className='d-flex align-items-center'>
-                        <NavLink to=''>
+                        <NavLink to='/'>
                             <img className='logo__Width' src={logo1} alt="main__logo" />
                         </NavLink>
                     </Navbar.Brand>
@@ -68,7 +68,7 @@ export default function MyNav({ scrollToggle }) {
                         placement="start">
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title className='offCanvas__head' id="offcanvasNavbarLabel">
-                                <NavLink to={``} className="px-4">
+                                <NavLink to={`/`} className="">
                                     <img className='logo__Width' src={logo1} alt="logo__canvas" />
                                 </NavLink>
                             </Offcanvas.Title>
