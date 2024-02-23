@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes } from 'react-router-dom';
+import MyNav from './components/myNav/MyNav';
+import { useState } from 'react';
 
 function App() {
+  const [scrollToggle, setScrollToggle] = useState(false);
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      setScrollToggle(true);
+    } else {
+      setScrollToggle(false);
+    }
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MyNav scrollToggle={scrollToggle}/>
+    <Routes>
+
+    </Routes>
+    </>
   );
 }
 
