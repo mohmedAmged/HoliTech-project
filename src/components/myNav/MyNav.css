@@ -95,11 +95,6 @@
     z-index: 1;
     transition: all .5s ease-out 0s;
 }
-.get__touch__btn span{
-    position: relative;
-    z-index: 5;
-    color: #fff;
-}
 .hover__effect::before{
     background: #000;
     content: "";
@@ -118,7 +113,6 @@
 }
 .get__touch__btn:hover{
     box-shadow: 0 0 5px hsla(0,0%,100%,.3);
-    
 }
 
 .navbar-toggler:focus {

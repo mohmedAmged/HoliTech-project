@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-family: 'Saira', sans-serif !important;
   height: 300vh;
-  background-color: rgba(0, 0, 0, 0.74) !important;
+  /* background-color: rgba(0, 0, 0, 0.74) !important; */
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -19,6 +19,10 @@ img{
 }
 li{
   list-style: none;
+}
+ul{
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 :root {

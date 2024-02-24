@@ -1,7 +1,8 @@
 import './App.css';
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import MyNav from './components/myNav/MyNav';
 import { useState } from 'react';
+import MyMainHome from './pages/myMainHome/MyMainHome';
 
 function App() {
   const [scrollToggle, setScrollToggle] = useState(false);
@@ -16,7 +17,7 @@ function App() {
     <>
     <MyNav scrollToggle={scrollToggle}/>
     <Routes>
-
+      <Route path='/' element={<MyMainHome />} />
     </Routes>
     </>
   );
