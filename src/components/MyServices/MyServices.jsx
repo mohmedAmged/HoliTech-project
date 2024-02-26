@@ -7,7 +7,7 @@ export default function MyServices({ servicesArray }) {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-lg-4 col-xl-4">
-                        <div className="myServices__title">
+                        <div className="main__title">
                             <span>what we do</span>
                             <h2>we work performed for client happy.</h2>
                             <NavLink to={'/services'} className='nav-link'>

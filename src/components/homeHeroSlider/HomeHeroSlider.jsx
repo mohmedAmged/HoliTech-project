@@ -7,9 +7,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import 'swiper/swiper-bundle.css';
 // import { Pagination } from 'swiper/modules';
-import heroSlider1 from '../../assets/heroImgs/hero-slider-1.png'
-import heroSlider2 from '../../assets/heroImgs/hero-slider-2.jpg'
-import heroSlider3 from '../../assets/heroImgs/hero-slider-3.png'
+import heroSlider1 from '../../assets/heroImgs/hero-slider-4.jpg'
+import heroSlider2 from '../../assets/heroImgs/hero-slider-5.jpg'
+import heroSlider3 from '../../assets/heroImgs/hero-slider-6.jpg'
 import { NavLink } from 'react-router-dom';
 
 export default function HomeHeroSlider() {

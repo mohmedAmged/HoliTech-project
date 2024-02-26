@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul, li {
 body {
   font-size: 16px;
   font-family: 'Saira', sans-serif !important;
-  height: 300vh;
+  /* height: 300vh; */
   /* background-color: rgba(0, 0, 0, 0.74) !important; */
 }
 *, *:before, *:after {
@@ -26,6 +26,9 @@ ul{
 }
 .sec_padding{
   padding: 120px 0;
+}
+.sec_margin{
+  margin: 120px 0;
 }
 
 :root {

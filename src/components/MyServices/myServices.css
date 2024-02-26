@@ -1,7 +1,7 @@
 .myServices__handler{
     background-color: var(--soft-black-bg);
 }
-.myServices__title span{
+.main__title span{
     color: var(--gold-color);
     display: inline-block;
     font-size: 16px;
@@ -10,7 +10,7 @@
     position: relative;
     text-transform: uppercase;
 }
-.myServices__title span::before{
+.main__title span::before{
     background-color: var(--gold-color);
     bottom: 0;
     content: "";
@@ -19,7 +19,7 @@
     position: absolute;
     width: 100%;
 }
-.myServices__title h2{
+.main__title h2{
     color: #fff;
     font-size: 48px;
     font-weight: 700;
