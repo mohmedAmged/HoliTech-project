@@ -25,7 +25,7 @@
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase;
-    margin-right: 4px;
+    /* margin-right: 4px; */
 }
 @media screen and (max-width: 767px) {
     .letsTalk__handler{
@@ -33,6 +33,9 @@
     }
     .main__title.special{
         text-align: center;
+    }
+    .main__title.special h2{
+        font-size: 42px;
     }
     .main__title.special h2 b{
         font-size: 50px;
