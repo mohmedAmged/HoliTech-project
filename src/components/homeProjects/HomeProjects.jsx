@@ -51,11 +51,11 @@ const projcetCards = [
 ]
 export default function HomeProjects() {
     return (
-        <div className='homeProjects__handler'>
+        <div className='homeProjects__handler sec_padding'>
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-7 col-xl-7">
-                        <div className="main__title black">
+                        <div className="main__title">
                             <span>Case Study</span>
                             <h2>A diversified resilient portfolio.</h2>
                             <NavLink to={'/projects'} className='nav-link'>

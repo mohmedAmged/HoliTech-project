@@ -1,5 +1,10 @@
+.homeProjects__handler{
+    /* background-color: #000; */
+    background-color: var(--soft-black-bg);
+}
 .projects__slider__handler{
     padding: 80px 0px 50px;
+
 }
 .single__project__card{
     position: relative;
@@ -125,7 +130,7 @@
 }
 .homeProjects__handler .swiper-pagination-bullet{
     background: transparent;
-    border: 1px solid var(--gold-color);
+    border: 1px solid hsla(0,0%,100%,.6);
     height: 15px;
     margin: 0 12.5px!important;
     opacity: 1;
