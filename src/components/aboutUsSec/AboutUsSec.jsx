@@ -1,4 +1,3 @@
-import React from 'react'
 import './aboutUsSec.css'
 import missionIcon from '../../assets/svgIcons/mission.png'
 import { NavLink } from 'react-router-dom'
@@ -7,24 +6,25 @@ import aboutImgtwo from '../../assets/heroImgs/about-2.jpg'
 import completeTask from '../../assets/svgIcons/completed-task.png'
 import clientRate from '../../assets/svgIcons/rating-stars.png'
 import expertTeam from '../../assets/svgIcons/expert.png'
+import { useEffect, useRef, useState } from 'react'
+const counterNumbers = [
+    {
+        icon: completeTask,
+        num: 30,
+        taskTitle: "project completed"
+    },
+    {
+        icon: clientRate,
+        num: 10,
+        taskTitle: "Satisfied Clients"
+    },
+    {
+        icon: expertTeam,
+        num: 10,
+        taskTitle: "Expert Teams"
+    },
+]
 export default function AboutUsSec() {
-    const counterNumbers = [
-        {
-            icon: completeTask,
-            num: 30,
-            taskTitle: "project completed"
-        },
-        {
-            icon: clientRate,
-            num: 10,
-            taskTitle: "Satisfied Clients"
-        },
-        {
-            icon: expertTeam,
-            num: 10,
-            taskTitle: "Expert Teams"
-        },
-    ]
     return (
         <div className='aboutUsSec__handler sec_margin'>
             <div className="container">
@@ -40,7 +40,7 @@ export default function AboutUsSec() {
                                 </h2>
                             </div>
                             <p>
-                            Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ei Donec lacinia placerat felis non aliquam.Integer purus odio.
+                                Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ei Donec lacinia placerat felis non aliquam.Integer purus odio.
                             </p>
                             <div className="our__mission__handler">
                                 <div className="mission__icon">
@@ -78,21 +78,21 @@ export default function AboutUsSec() {
                 <div className="aboutUsSec__count">
                     <div className="row">
                         {
-                            counterNumbers?.map((el, index)=>(
+                            counterNumbers?.map((el, index) => (
                                 <div key={index} className="col-lg-4 col-xl-4 col-md-4 col-sm-6">
-                                <div className="single__count">
-                                    <i>
-                                        <img src={el?.icon} alt="icon" />
-                                    </i>
-                                    <div className="counter">
-                                        <span>{el?.num}</span>
-                                        <sup>+</sup>
+                                    <div className="single__count">
+                                        <i>
+                                            <img src={el?.icon} alt="icon" />
+                                        </i>
+                                        <div className="counter" >
+                                            <span>{el?.num}</span>
+                                            <sup>+</sup>
+                                        </div>
+                                        <p>
+                                            {el?.taskTitle}
+                                        </p>
                                     </div>
-                                    <p>
-                                        {el?.taskTitle}
-                                    </p>
                                 </div>
-                            </div> 
                             ))
                         }
                     </div>

@@ -195,7 +195,7 @@
         transform: translate(-50%,-50%);
         width: 10px;
 }
-.swiper-slide:not(.swiper-slide-active){
+.homeHeroSlider__handler .swiper-slide:not(.swiper-slide-active){
     opacity: 0 !important;
   }
 .hero__socialMedia{

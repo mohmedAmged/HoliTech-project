@@ -7,6 +7,7 @@ import mopileIcon from '../../assets/svgIcons/mobile-development.png'
 import UiUx from '../../assets/svgIcons/ui-ux.png'
 import graphicIcon from '../../assets/svgIcons/illustration.png'
 import AboutUsSec from '../../components/aboutUsSec/AboutUsSec'
+import HomeProjects from '../../components/homeProjects/HomeProjects'
 export default function MyMainHome() {
     const servicesArray = [
         {
@@ -39,6 +40,7 @@ export default function MyMainHome() {
             <HomeHeroSlider />
             <MyServices servicesArray={servicesArray}/>
             <AboutUsSec />
+            <HomeProjects />
         </>
     )
 }
