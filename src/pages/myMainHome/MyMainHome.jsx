@@ -8,6 +8,8 @@ import UiUx from '../../assets/svgIcons/ui-ux.png'
 import graphicIcon from '../../assets/svgIcons/illustration.png'
 import AboutUsSec from '../../components/aboutUsSec/AboutUsSec'
 import HomeProjects from '../../components/homeProjects/HomeProjects'
+import WhyChooseUs from '../../components/whyChooseUs/WhyChooseUs'
+import LetsTalkSec from '../../components/letsTalkSec/LetsTalkSec'
 export default function MyMainHome() {
     const servicesArray = [
         {
@@ -41,6 +43,8 @@ export default function MyMainHome() {
             <MyServices servicesArray={servicesArray}/>
             <AboutUsSec />
             <HomeProjects />
+            <WhyChooseUs />
+            <LetsTalkSec />
         </>
     )
 }
