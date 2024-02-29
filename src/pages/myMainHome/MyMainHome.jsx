@@ -15,25 +15,25 @@ export default function MyMainHome() {
         {
             num: "01",
             title: "Web Development",
-            description: "Fusce ornare mauris nisi, id fringilla turpis vehicula justo lectus, ultricies nec sem",
+            description: "Crafting dynamic & responsive websites for impactful online presence",
             icon: webIcon
         },
         {
             num: "02",
             title: "App Development",
-            description: "Fusce ornare mauris nisi, id fringilla turpis vehicula justo lectus, ultricies nec sem",
+            description: "Turning ideas into intuitive mobile apps for exceptional experiences.",
             icon: mopileIcon
         },
         {
             num: "03",
             title: "UI/UX Design",
-            description: "Fusce ornare mauris nisi, id fringilla turpis vehicula justo lectus, ultricies nec sem",
+            description: "Creating intuitive interfaces for delightful digital experiences.",
             icon: UiUx
         },
         {
             num: "04",
             title: "Graphic Design",
-            description: "Fusce ornare mauris nisi, id fringilla turpis vehicula justo lectus, ultricies nec sem",
+            description: "Bringing brands to life through captivating visuals & design.",
             icon: graphicIcon
         },
     ];

@@ -40,7 +40,7 @@ export default function AboutUsSec() {
                                 </h2>
                             </div>
                             <p>
-                                Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Classe aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ei Donec lacinia placerat felis non aliquam.Integer purus odio.
+                            Holitech is a forward-thinking tech company dedicated to crafting innovative solutions that empower businesses to thrive in the digital age. With a team of passionate developers and designers, we're committed to delivering cutting-edge web and mobile applications tailored to meet our clients' unique needs. Our focus on creativity, quality, and customer satisfaction sets us apart as a trusted partner in the digital landscape.
                             </p>
                             <div className="our__mission__handler">
                                 <div className="mission__icon">
@@ -53,8 +53,7 @@ export default function AboutUsSec() {
                                         Our Mission
                                     </h5>
                                     <p>
-                                        Integer purus odio, placerat nec rhoni olor Class online and video.
-                                    </p>
+                                    At Holitech, our mission is to empower businesses with innovative technology solutions, tailored to their needs, driving growth and success.                                    </p>
                                 </div>
                             </div>
                             <NavLink to={'/about-us'} className='nav-link'>

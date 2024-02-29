@@ -19,7 +19,7 @@ export default function HomeHeroSlider() {
             title: "Best solution for your ",
             titText: "Business.",
             subTitle: "creative",
-            description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
+            description: "Holitech: Your premier business solution. Our team crafts innovative software & web-apps & apps tailored to your needs. Streamline operations, enhance customer experiences, & drive growth. Elevate your business with Holitech!",
             link1: "/about-us",
             link2: "/projects",
             sliderNum: "01"
@@ -29,7 +29,7 @@ export default function HomeHeroSlider() {
             title: "Best solution for your ",
             titText: "Markets.",
             subTitle: "creative",
-            description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
+            description: "Holitech excels in market solutions. From research tools to customer engagement platforms, we help you understand markets, reach new territories, & drive sales. Conquer markets confidently with Holitech!",
             link1: "/about-us",
             link2: "/projects",
             sliderNum: "02"
@@ -39,41 +39,11 @@ export default function HomeHeroSlider() {
             title: "Best solution for your ",
             titText: "Finance.",
             subTitle: "creative",
-            description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
+            description: "Unlock financial success with Holitech. Our software optimizes processes, streamlines operations, & maximizes profitability. From budgeting to payment processing, achieve financial excellence with Holitech!",
             link1: "/about-us",
             link2: "/projects",
             sliderNum: "03"
         },
-        // {
-        //     imgSrc: heroSlider1,
-        //     title: "Best solution for your ",
-        //     titText: "Business.",
-        //     subTitle: "creative",
-        //     description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
-        //     link1: "/about-us",
-        //     link2: "/projects",
-        //     sliderNum: "01"
-        // },
-        // {
-        //     imgSrc: heroSlider2,
-        //     title: "Best solution for your ",
-        //     titText: "Markets.",
-        //     subTitle: "creative",
-        //     description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
-        //     link1: "/about-us",
-        //     link2: "/projects",
-        //     sliderNum: "02"
-        // },
-        // {
-        //     imgSrc: heroSlider3,
-        //     title: "Best solution for your ",
-        //     titText: "Finance.",
-        //     subTitle: "creative",
-        //     description: "Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla an Duis a orci nunc. Suspendisse ac convallis sapien, quis commodosani libero. Donec nec dui luctus, pellentesque lacus sed, mollis leo.",
-        //     link1: "/about-us",
-        //     link2: "/projects",
-        //     sliderNum: "03"
-        // },
     ];
     return (
         <div className='homeHeroSlider__handler'>
@@ -82,7 +52,7 @@ export default function HomeHeroSlider() {
                 slidesPerView={1}
                 effect={"fade"}
                 speed={1000}
-                autoplay={{ delay: 3500 }}
+                autoplay={{ delay: 6000 }}
                 pagination={{
                     clickable: true,
                 }}
