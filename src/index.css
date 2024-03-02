@@ -36,6 +36,7 @@ ul{
   --dark-black-bg: #17161a;
   --soft-black-bg: #111215;
   --gold-color: #b88c4f;
+  --dark-gold-color: #fabc3c;
   /* --gold-gredient: linear-gradient(90deg, #b88c4f 1.05%, #fabc3c); */
   --gold-gredient: linear-gradient(90deg, #fabc3c 1.05%, #b88c4f);
 }
