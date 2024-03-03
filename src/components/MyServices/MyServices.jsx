@@ -36,7 +36,8 @@ export default function MyServices({ servicesArray }) {
                                                 <p>
                                                     {item?.description}
                                                 </p>
-                                                <NavLink className="nav-link service__card__btn" to={'/service-detail'}>
+                                                <NavLink className="nav-link service__card__btn" 
+                                                to={`/services/${item.title.toLowerCase()}`}>
                                                     read more <i className="bi bi-arrow-right-circle"></i>
                                                 </NavLink>
                                             </div>

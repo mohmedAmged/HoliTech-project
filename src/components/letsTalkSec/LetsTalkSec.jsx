@@ -16,7 +16,9 @@ export default function LetsTalkSec() {
                                     <b>
                                     Project 
                                     </b>
-                                    your mind
+                                    <p>
+                                        in your mind
+                                    </p>
                                 </h2>
                             </div>
                         </div>

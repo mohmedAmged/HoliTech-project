@@ -81,7 +81,7 @@ export default function MyNav({ scrollToggle }) {
                                     }}
                                     aria-label="Close"
                                     className={`nav-link link__item nav__link__style`}
-                                    to={`/home`}>
+                                    to={`/`}>
                                     home
                                 </NavLink>
                                 <NavLink

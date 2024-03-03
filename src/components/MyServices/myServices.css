@@ -162,3 +162,11 @@
 .single__card__service:hover .service__card__btn i{
     margin-left: 5px;
 }
+
+@media screen and (max-width: 767px){
+    .single__card__service{
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+}
