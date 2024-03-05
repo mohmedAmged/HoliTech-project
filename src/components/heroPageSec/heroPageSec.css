@@ -46,3 +46,17 @@
     vertical-align: middle;
     width: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .heroPageSec__handler{
+        min-height: 350px;
+        text-align: center;
+    }
+    .heroPageSec__content{
+        min-height: 350px;
+        text-align: center;
+    }
+    .heroPageSec__content h1{
+        font-size: 40px;
+    }
+}
