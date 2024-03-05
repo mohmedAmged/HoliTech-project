@@ -34,15 +34,15 @@ export default function MyNav({ scrollToggle }) {
                             className={`nav-link link__item nav__link__style`}>
                                 Home
                             </NavLink>
-                            <NavLink to={'/about-us'} 
-                            aria-label="Close" 
-                            className={`nav-link link__item nav__link__style`}>
-                                About Us
-                            </NavLink>
                             <NavLink to={'/services'} 
                             aria-label="Close" 
                             className={`nav-link link__item nav__link__style`}>
                                 Services
+                            </NavLink>
+                            <NavLink to={'/about-us'} 
+                            aria-label="Close" 
+                            className={`nav-link link__item nav__link__style`}>
+                                About Us
                             </NavLink>
                             <NavLink to={'/projects'} 
                             aria-label="Close" 
@@ -90,9 +90,9 @@ export default function MyNav({ scrollToggle }) {
                                     }
                                     }
                                     className={`nav-link link__item nav__link__style`}
-                                    to={`/about-us`}
+                                    to={`/services`}
                                 >
-                                    About Us
+                                    Services
                                 </NavLink>
                                 <NavLink
                                     onClick={() => {
@@ -100,9 +100,9 @@ export default function MyNav({ scrollToggle }) {
                                     }
                                     }
                                     className={`nav-link link__item nav__link__style`}
-                                    to={`/services`}
+                                    to={`/about-us`}
                                 >
-                                    Services
+                                    About Us
                                 </NavLink>
                                 <NavLink
                                     onClick={() => {
