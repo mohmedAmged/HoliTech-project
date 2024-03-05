@@ -71,10 +71,10 @@ function App() {
       serviceIcon: webIcon,
       serviceDescription: "Holitech specializes in crafting dynamic and responsive websites that leave a lasting impression. Our team of expert developers combines creativity with technical expertise to build custom web solutions tailored to your business needs.",
       howWeWork: {
-        discoveryAndPlanning: "We start by understanding your business objectives, target audience, and project requirements. We develop a detailed project plan and strategy, outlining the scope, timeline, and milestones for the web development project.",
-        designAndDevelopment: "Our team creates wireframes and design mockups to visualize the layout and structure of the website. We then code functional components using modern frontend and backend technologies, ensuring a seamless user experience and robust functionality.",
-        testingAndDeployment: "Before launch, we conduct thorough testing to ensure the functionality, performance, and compatibility of the website across different browsers and devices. Once tested and approved, we handle the deployment process, ensuring a smooth transition to the production environment.",
-        maintenanceAndSupport: "After launch, we provide ongoing maintenance and support services to address any issues, implement updates, and ensure the continued success of the website."
+        "discovery And Planning": "We start by understanding your business objectives, target audience, and project requirements. We develop a detailed project plan and strategy, outlining the scope, timeline, and milestones for the web development project.",
+        "design And Development": "Our team creates wireframes and design mockups to visualize the layout and structure of the website. We then code functional components using modern frontend and backend technologies, ensuring a seamless user experience and robust functionality.",
+        "testing And Deployment": "Before launch, we conduct thorough testing to ensure the functionality, performance, and compatibility of the website across different browsers and devices. Once tested and approved, we handle the deployment process, ensuring a smooth transition to the production environment.",
+        "maintenance And Support": "After launch, we provide ongoing maintenance and support services to address any issues, implement updates, and ensure the continued success of the website."
       },
       techniquesAndTools: {
         "programming Languages": ["HTML5", "CSS3", "JavaScript"],
@@ -167,7 +167,7 @@ function App() {
         "research And Planning": "We conduct research to understand your target audience, industry trends, and business objectives, developing a content strategy tailored to your needs and goals.",
         "content Creation": "Our writers create engaging and informative content, including website copy, blog posts, articles, and marketing materials, that effectively communicates your message and engages your audience.",
         "editing And Proof reading": "We carefully edit and proofread the content to ensure clarity, accuracy, and consistency, adhering to your brand voice and style guidelines, and making revisions as needed.",
-        optimizationAndPromotion: "We optimize the content for search engines (SEO) and promote it through various channels, including social media, email marketing, and content distribution platforms, to increase visibility and drive traffic to your website."
+        "optimization And Promotion": "We optimize the content for search engines (SEO) and promote it through various channels, including social media, email marketing, and content distribution platforms, to increase visibility and drive traffic to your website."
       },
       techniquesAndTools: {
         "research Tools": ["Google Trends", "BuzzSumo"],
@@ -181,10 +181,10 @@ function App() {
       serviceIcon: ai,
       serviceDescription: "Explore the possibilities of AI with Holitech. Our AI development services leverage cutting-edge technology to enhance your products and services.",
       howWeWork: {
-        consultationAndAssessment: "We start by understanding your business goals and challenges, and identify areas where AI can add value, conducting a thorough assessment of your existing systems and processes.",
-        developmentAndTraining: "Our AI experts develop and train custom AI models tailored to your needs, using techniques such as machine learning, natural language processing, and computer vision, to analyze data and make predictions.",
-        integrationAndTesting: "We integrate the AI models into your existing systems or applications and conduct rigorous testing to ensure accuracy, reliability, and performance, making adjustments as needed to optimize performance.",
-        deploymentAndMonitoring: "Once tested and approved, we deploy the AI solutions to production and provide ongoing monitoring and maintenance to ensure continued performance, scalability, and efficiency."
+        "consultation And Assessment": "We start by understanding your business goals and challenges, and identify areas where AI can add value, conducting a thorough assessment of your existing systems and processes.",
+        "development And Training": "Our AI experts develop and train custom AI models tailored to your needs, using techniques such as machine learning, natural language processing, and computer vision, to analyze data and make predictions.",
+        "integration And Testing": "We integrate the AI models into your existing systems or applications and conduct rigorous testing to ensure accuracy, reliability, and performance, making adjustments as needed to optimize performance.",
+        "deployment And Monitoring": "Once tested and approved, we deploy the AI solutions to production and provide ongoing monitoring and maintenance to ensure continued performance, scalability, and efficiency."
       },
       techniquesAndTools: {
         "machine Learning Frameworks": ["TensorFlow", "PyTorch"],
