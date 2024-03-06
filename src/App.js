@@ -14,7 +14,46 @@ import content from './assets/svgIcons/content.png'
 import ai from './assets/svgIcons/automation.png'
 import support from './assets/svgIcons/maintenance.png'
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
+import techno2 from './assets/projectsImgs/techno2.png'
+import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
 function App() {
+  const projcetCards = [
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "vilches professional",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "rehant elrabia",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "valuReach",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "techno template",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "noval template",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "mentor template",
+    },
+    {
+        img: techno2,
+        subTitle: "web development",
+        title: "E-Commerce template",
+    }
+]
   const servicesArray = [
     {
       num: "01",
@@ -225,10 +264,11 @@ function App() {
     <>
       <MyNav scrollToggle={scrollToggle} />
       <Routes>
-        <Route path='/' element={<MyMainHome servicesArray={servicesArray} />} />
+        <Route path='/' element={<MyMainHome projcetCards={projcetCards} servicesArray={servicesArray} />} />
         <Route path='/services' element={<MyAllServices servicesArray={servicesArray} />} />
         <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
         <Route path='/about-us' element={<AboutUsPage />} />
+        <Route path='/projects' element={<MyProjectsPage projcetCards={projcetCards}/>} />
       </Routes>
     </>
   );

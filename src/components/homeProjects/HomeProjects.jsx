@@ -8,48 +8,9 @@ import "swiper/css/autoplay";
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
-import techno from '../../assets/projectsImgs/techno.png'
-import techno2 from '../../assets/projectsImgs/techno2.png'
 import searchIcon from '../../assets/svgIcons/search-interface-symbol.png'
 
-const projcetCards = [
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "mockup template",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "mockup design",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "template",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "graphic template",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "graphic template",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "graphic template",
-    },
-    {
-        img: techno2,
-        subTitle: "software",
-        title: "graphic template",
-    }
-]
-export default function HomeProjects() {
+export default function HomeProjects({projcetCards}) {
     return (
         <div className='homeProjects__handler sec_padding'>
             <div className="container">
@@ -110,19 +71,19 @@ export default function HomeProjects() {
                                     }
                                 }}
                                 className="mySwiper">
-                                {projcetCards.map((el) => (
+                                {projcetCards?.map((el) => (
                                     <SwiperSlide>
 
                                         <div className="single__project__card">
                                             <div className="project__data">
                                                 <NavLink className="nav-link">
-                                                    <img src={el.img} alt="" />
+                                                    <img src={el?.img} alt="" />
                                                 </NavLink>
                                             </div>
                                             <div className="project__inner">
-                                                <span>{el.subTitle}</span>
+                                                <span>{el?.subTitle}</span>
                                                 <h4>
-                                                    {el.title}
+                                                    {el?.title}
                                                 </h4>
                                                 <div className="project__hover">
                                                     <NavLink className="nav-link case__btn">
