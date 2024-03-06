@@ -21,7 +21,7 @@ export default function HomeHeroSlider() {
             subTitle: "creative",
             description: "Holitech: Your premier business solution. Our team crafts innovative software & web-apps & apps tailored to your needs. Streamline operations, enhance customer experiences, & drive growth. Elevate your business with Holitech!",
             link1: "/about-us",
-            link2: "/projects",
+            link2: "/services",
             sliderNum: "01"
         },
         {
@@ -31,7 +31,7 @@ export default function HomeHeroSlider() {
             subTitle: "creative",
             description: "Holitech excels in market solutions. From research tools to customer engagement platforms, we help you understand markets, reach new territories, & drive sales. Conquer markets confidently with Holitech!",
             link1: "/about-us",
-            link2: "/projects",
+            link2: "/services",
             sliderNum: "02"
         },
         {
@@ -41,7 +41,7 @@ export default function HomeHeroSlider() {
             subTitle: "creative",
             description: "Unlock financial success with Holitech. Our software optimizes processes, streamlines operations, & maximizes profitability. From budgeting to payment processing, achieve financial excellence with Holitech!",
             link1: "/about-us",
-            link2: "/projects",
+            link2: "/services",
             sliderNum: "03"
         },
     ];
@@ -75,11 +75,9 @@ export default function HomeHeroSlider() {
                                                 <div className="hero__content">
                                                     <h2>
                                                         {slide?.subTitle}
-                                                        {/* creative */}
                                                     </h2>
                                                     <h1>
                                                         {slide?.title}
-                                                        {/* Best solution for your */}
                                                         <span> {slide?.titText}</span>
                                                     </h1>
                                                     <p>

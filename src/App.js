@@ -13,6 +13,7 @@ import backend from './assets/svgIcons/backend.png'
 import content from './assets/svgIcons/content.png'
 import ai from './assets/svgIcons/automation.png'
 import support from './assets/svgIcons/maintenance.png'
+import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 function App() {
   const servicesArray = [
     {
@@ -227,6 +228,7 @@ function App() {
         <Route path='/' element={<MyMainHome servicesArray={servicesArray} />} />
         <Route path='/services' element={<MyAllServices servicesArray={servicesArray} />} />
         <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
+        <Route path='/about-us' element={<AboutUsPage />} />
       </Routes>
     </>
   );
