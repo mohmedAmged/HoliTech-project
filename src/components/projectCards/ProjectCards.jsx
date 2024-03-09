@@ -31,10 +31,10 @@ export default function ProjectCards({ projcetCards }) {
                                             {el?.title}
                                         </h4>
                                         <div className="project__hover">
-                                            <NavLink className="nav-link case__btn">
+                                            <NavLink to={`/projects/${el.title.toLowerCase()}`} className="nav-link case__btn">
                                                 Case Study
                                             </NavLink>
-                                            <NavLink className="nav-link">
+                                            <NavLink to={`/projects/${el.title.toLowerCase()}`} className="nav-link">
                                                 <img src={searchIcon} alt="icon" />
                                             </NavLink>
                                         </div>

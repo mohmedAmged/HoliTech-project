@@ -16,6 +16,8 @@ import support from './assets/svgIcons/maintenance.png'
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import techno2 from './assets/projectsImgs/techno2.png'
 import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
+import SingleProjectPage from './pages/singleProjectPage/SingleProjectPage';
+import step1 from "./assets/projectcardDetails/project-single-step-1.jpg"
 function App() {
   const projcetCards = [
     {
@@ -54,6 +56,240 @@ function App() {
         title: "E-Commerce template",
     }
 ]
+  const projectDetails = [
+  {
+    projectName: "vilches professional",
+    clientName: "vilches company",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://vilchesprofessional.com",
+    startDate: "01.08.2023",
+    endDate: "01.09.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "rehant elrabia",
+    clientName: "rehant elrabia company",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://mohmedamged.github.io/landScapeV03/",
+    startDate: "01.06.2023",
+    endDate: "01.07.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "valuReach",
+    clientName: "valuReach company",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://test-v01.vercel.app/",
+    startDate: "01.11.2023",
+    endDate: "in progress",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "techno template",
+    clientName: "standlone project",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://tecno.vercel.app/",
+    startDate: "10.07.2023",
+    endDate: "03.08.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "noval template",
+    clientName: "standlone project",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://e-commerce-noval.vercel.app/",
+    startDate: "05.07.2023",
+    endDate: "01.08.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "mentor template",
+    clientName: "standlone project",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://mentor-kohl.vercel.app/",
+    startDate: "01.04.2023",
+    endDate: "15.04.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+  {
+    projectName: "E-Commerce template",
+    clientName: "standlone project",
+    servicesMade: "UI/UX, Developing",
+    websiteLink: "https://mohmedamged.github.io/E-Commerce-Watch-App-Template",
+    startDate: "16.03.2023",
+    endDate: "25.03.2023",
+    projectImg: techno2,
+    overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
+    checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
+    workProcess: [
+      {
+        "processNum": "01.",
+        "processName": "BRAINSTORMING",
+        "processImg": step1
+      },
+      {
+        "processNum": "02.",
+        "processName": "WIREFRAME",
+        "processImg": step1
+      },
+      {
+        "processNum": "03.",
+        "processName": "UI DESIGN",
+        "processImg": step1
+      },
+      {
+        "processNum": "04.",
+        "processName": "DEVELOPING",
+        "processImg": step1
+      },
+    ]
+  },
+]
+
   const servicesArray = [
     {
       num: "01",
@@ -269,6 +505,7 @@ function App() {
         <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
         <Route path='/about-us' element={<AboutUsPage />} />
         <Route path='/projects' element={<MyProjectsPage projcetCards={projcetCards}/>} />
+        <Route path='/projects/:projectName' element={<SingleProjectPage projectDetails={projectDetails} projcetCards={projcetCards}/>} />
       </Routes>
     </>
   );
