@@ -18,42 +18,49 @@ import techno2 from './assets/projectsImgs/techno2.png'
 import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
 import SingleProjectPage from './pages/singleProjectPage/SingleProjectPage';
 import step1 from "./assets/projectcardDetails/project-single-step-1.jpg"
+import vilichesMock from './assets/projectsImgs/viliches.png'
+import landScapeMock from './assets/projectsImgs/landscape.png'
+import valuMock from './assets/projectsImgs/valuMock.png'
+import technoMock from './assets/projectsImgs/technoMock.png'
+import novalMock from './assets/projectsImgs/novalMock.png'
+import hotelMock from './assets/projectsImgs/hotelMock.png'
+import timeMock from './assets/projectsImgs/timeMock.png'
 function App() {
   const projcetCards = [
     {
-        img: techno2,
+        img: vilichesMock,
         subTitle: "web development",
         title: "vilches professional",
     },
     {
-        img: techno2,
+        img: landScapeMock,
         subTitle: "web development",
         title: "rehant elrabia",
     },
     {
-        img: techno2,
+        img: valuMock,
         subTitle: "web development",
         title: "valuReach",
     },
     {
-        img: techno2,
+        img: technoMock,
         subTitle: "web development",
         title: "techno template",
     },
     {
-        img: techno2,
+        img: novalMock,
         subTitle: "web development",
         title: "noval template",
     },
     {
-        img: techno2,
+        img: hotelMock,
         subTitle: "web development",
-        title: "mentor template",
+        title: "hotel landpage",
     },
     {
-        img: techno2,
+        img: timeMock,
         subTitle: "web development",
-        title: "E-Commerce template",
+        title: "E-Commerce watches",
     }
 ]
   const projectDetails = [
@@ -64,7 +71,7 @@ function App() {
     websiteLink: "https://vilchesprofessional.com",
     startDate: "01.08.2023",
     endDate: "01.09.2023",
-    projectImg: techno2,
+    projectImg: vilichesMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -97,7 +104,7 @@ function App() {
     websiteLink: "https://mohmedamged.github.io/landScapeV03/",
     startDate: "01.06.2023",
     endDate: "01.07.2023",
-    projectImg: techno2,
+    projectImg: landScapeMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -130,7 +137,7 @@ function App() {
     websiteLink: "https://test-v01.vercel.app/",
     startDate: "01.11.2023",
     endDate: "in progress",
-    projectImg: techno2,
+    projectImg: valuMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -163,7 +170,7 @@ function App() {
     websiteLink: "https://tecno.vercel.app/",
     startDate: "10.07.2023",
     endDate: "03.08.2023",
-    projectImg: techno2,
+    projectImg: technoMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -196,7 +203,7 @@ function App() {
     websiteLink: "https://e-commerce-noval.vercel.app/",
     startDate: "05.07.2023",
     endDate: "01.08.2023",
-    projectImg: techno2,
+    projectImg: novalMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -223,13 +230,13 @@ function App() {
     ]
   },
   {
-    projectName: "mentor template",
+    projectName: "hotel landpage",
     clientName: "standlone project",
     servicesMade: "UI/UX, Developing",
     websiteLink: "https://mentor-kohl.vercel.app/",
     startDate: "01.04.2023",
     endDate: "15.04.2023",
-    projectImg: techno2,
+    projectImg: hotelMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
@@ -256,13 +263,13 @@ function App() {
     ]
   },
   {
-    projectName: "E-Commerce template",
+    projectName: "E-Commerce watches",
     clientName: "standlone project",
     servicesMade: "UI/UX, Developing",
     websiteLink: "https://mohmedamged.github.io/E-Commerce-Watch-App-Template",
     startDate: "16.03.2023",
     endDate: "25.03.2023",
-    projectImg: techno2,
+    projectImg: timeMock,
     overview: "n euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique neque non pretium. Etiam leo risus, consectetur sagittis ullamcorper scelerisque, blandit vitae sem.",
     checkAndLaunch: "In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis finibus, metus sapien venenatis orci, eget lacinia magna justo vehicula metus. Morbi sit amet erat faucibus, sagittis libero sed, condimentum tortor. Aenean ac nunc dolor. Quisque vestibulum mollis nisi, vel dictum nisi. Vestibulum tempor tristique blandit vitae sem. Etiam semper enim sapien, nec consequat lectus pellentesque sit amet.",
     workProcess: [
