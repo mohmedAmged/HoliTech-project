@@ -14,7 +14,6 @@ import content from './assets/svgIcons/content.png'
 import ai from './assets/svgIcons/automation.png'
 import support from './assets/svgIcons/maintenance.png'
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
-import techno2 from './assets/projectsImgs/techno2.png'
 import MyProjectsPage from './pages/projectsPage/MyProjectsPage';
 import SingleProjectPage from './pages/singleProjectPage/SingleProjectPage';
 import step1 from "./assets/projectcardDetails/project-single-step-1.jpg"
@@ -25,6 +24,7 @@ import technoMock from './assets/projectsImgs/technoMock.png'
 import novalMock from './assets/projectsImgs/novalMock.png'
 import hotelMock from './assets/projectsImgs/hotelMock.png'
 import timeMock from './assets/projectsImgs/timeMock.png'
+import MyFooter from './components/myFooter/MyFooter';
 function App() {
   const projcetCards = [
     {
@@ -316,32 +316,32 @@ function App() {
       description: "Creating intuitive interfaces for delightful digital experiences.",
       icon: UiUx
     },
+    // {
+    //   num: "04",
+    //   title: "Graphic Design",
+    //   description: "Bringing brands to life through captivating visuals & design.",
+    //   icon: graphicIcon
+    // },
     {
       num: "04",
-      title: "Graphic Design",
-      description: "Bringing brands to life through captivating visuals & design.",
-      icon: graphicIcon
-    },
-    {
-      num: "05",
       title: "Backend",
       description: "Powering applications with robust backend solutions.",
       icon: backend
     },
     {
-      num: "06",
+      num: "05",
       title: "Content Writing",
       description: "Compelling content that resonates with your audience.",
       icon: content
     },
     {
-      num: "07",
+      num: "06",
       title: "Ai Development",
       description: "Unlocking possibilities with advanced AI technology.",
       icon: ai
     },
     {
-      num: "08",
+      num: "07",
       title: "Technical Support",
       description: "Reliable support for digital operations.",
       icon: support
@@ -514,6 +514,7 @@ function App() {
         <Route path='/projects' element={<MyProjectsPage projcetCards={projcetCards}/>} />
         <Route path='/projects/:projectName' element={<SingleProjectPage projectDetails={projectDetails} projcetCards={projcetCards}/>} />
       </Routes>
+      <MyFooter />
     </>
   );
 }
