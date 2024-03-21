@@ -130,7 +130,7 @@ export default function MyFooter() {
                         <div className="col-lg-12">
                         <div class="copy__text text-center">
                             <span>
-                                Copyright 2022 <b>Finibus</b> | Design By <a rel="noopener noreferrer" href="https://www.egenslab.com/" target="_blank" >Egens Lab</a>
+                                Copyright 2024 <b>HOLITECH</b> | Design By <a rel="noopener noreferrer" href="https://www.egenslab.com/" target="_blank" >Egens Lab</a>
                             </span>
                         </div>
                         </div>
