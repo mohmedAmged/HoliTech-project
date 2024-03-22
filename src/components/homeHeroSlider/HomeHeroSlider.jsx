@@ -11,7 +11,7 @@ import heroSlider1 from '../../assets/heroImgs/hero-slider-4.jpg'
 import heroSlider2 from '../../assets/heroImgs/hero-slider-5.jpg'
 import heroSlider3 from '../../assets/heroImgs/hero-slider-6.jpg'
 import { NavLink } from 'react-router-dom';
-
+import { scrollToTop } from '../../functions/scrollToTop';
 export default function HomeHeroSlider() {
     const slidesData = [
         {
@@ -83,10 +83,10 @@ export default function HomeHeroSlider() {
                                                     <p>
                                                         {slide?.description}
                                                     </p>
-                                                    <NavLink to={slide?.link1} className="nav-link hero__link about__btn">
+                                                    <NavLink onClick={()=>scrollToTop()} to={slide?.link1} className="nav-link hero__link about__btn">
                                                         About Us
                                                     </NavLink>
-                                                    <NavLink to={slide?.link2} className="nav-link hero__link work__btn">
+                                                    <NavLink onClick={()=>scrollToTop()} to={slide?.link2} className="nav-link hero__link work__btn">
                                                         How we work
                                                     </NavLink>
                                                     <div className="slider__num">

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import { scrollToTop } from '../../functions/scrollToTop';
 import { NavLink } from 'react-router-dom';
 import logo1 from '../../assets/logos/logo1.png'
 export default function MyNav({ scrollToggle }) {
@@ -21,7 +21,7 @@ export default function MyNav({ scrollToggle }) {
             <Navbar expand="lg" className={`nav__Bg ${scrollToggle ? "nav__fixed py-3 navTransformationDown" : "nav__absolute pb-3"} align-items-center`}>
                 <Container>
                     <Navbar.Brand className='d-flex align-items-center'>
-                        <NavLink to='/'>
+                        <NavLink onClick={()=>scrollToTop()} to='/'>
                             <img className='logo__Width' src={logo1} alt="main__logo" />
                         </NavLink>
                     </Navbar.Brand>
@@ -29,22 +29,22 @@ export default function MyNav({ scrollToggle }) {
                     {/* start navbar min-width 992px */}
                     <Navbar.Collapse id="navbar-nav" className='Navbar__Collapse__none__on__med'>
                         <Nav className="mx-auto">
-                            <NavLink to={'/'} 
+                            <NavLink onClick={()=>scrollToTop()} to={'/'} 
                             aria-label="Close" 
                             className={`nav-link link__item nav__link__style`}>
                                 Home
                             </NavLink>
-                            <NavLink to={'/services'} 
+                            <NavLink onClick={()=>scrollToTop()} to={'/services'} 
                             aria-label="Close" 
                             className={`nav-link link__item nav__link__style`}>
                                 Services
                             </NavLink>
-                            <NavLink to={'/about-us'} 
+                            <NavLink onClick={()=>scrollToTop()} to={'/about-us'} 
                             aria-label="Close" 
                             className={`nav-link link__item nav__link__style`}>
                                 About Us
                             </NavLink>
-                            <NavLink to={'/projects'} 
+                            <NavLink onClick={()=>scrollToTop()} to={'/projects'} 
                             aria-label="Close" 
                             className={`nav-link link__item nav__link__style`}>
                                 Projects
@@ -52,7 +52,7 @@ export default function MyNav({ scrollToggle }) {
                             
                         </Nav>
                         <Nav>
-                            <NavLink to={'/contact'} className='nav-link'>
+                            <NavLink  to={'/contact'} className='nav-link'>
                                 <div className="get__touch__btn hover__effect">
                                     get  in touch
                                 </div>
@@ -68,7 +68,7 @@ export default function MyNav({ scrollToggle }) {
                         placement="start">
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title className='offCanvas__head' id="offcanvasNavbarLabel">
-                                <NavLink to={`/`} className="">
+                                <NavLink onClick={()=>scrollToTop()} to={`/`} className="">
                                     <img className='logo__Width' src={logo1} alt="logo__canvas" />
                                 </NavLink>
                             </Offcanvas.Title>
@@ -78,6 +78,7 @@ export default function MyNav({ scrollToggle }) {
                                 <NavLink
                                     onClick={() => {
                                         closeOffcanvas();
+                                        scrollToTop();
                                     }}
                                     aria-label="Close"
                                     className={`nav-link link__item nav__link__style`}
@@ -87,6 +88,7 @@ export default function MyNav({ scrollToggle }) {
                                 <NavLink
                                     onClick={() => {
                                         closeOffcanvas();
+                                        scrollToTop();
                                     }
                                     }
                                     className={`nav-link link__item nav__link__style`}
@@ -97,6 +99,7 @@ export default function MyNav({ scrollToggle }) {
                                 <NavLink
                                     onClick={() => {
                                         closeOffcanvas();
+                                        scrollToTop();
                                     }
                                     }
                                     className={`nav-link link__item nav__link__style`}
@@ -107,6 +110,7 @@ export default function MyNav({ scrollToggle }) {
                                 <NavLink
                                     onClick={() => {
                                         closeOffcanvas();
+                                        scrollToTop();
                                     }
                                     }
                                     className={`nav-link link__item nav__link__style`}

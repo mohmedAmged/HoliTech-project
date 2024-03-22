@@ -2,6 +2,7 @@ import React from 'react'
 import './myFooter.css'
 import { NavLink } from 'react-router-dom'
 import logo from '../../assets/logos/logo1.png'
+import { scrollToTop } from '../../functions/scrollToTop';
 export default function MyFooter() {
     return (
         <footer className='myFooter__handler'>
@@ -11,7 +12,7 @@ export default function MyFooter() {
                         <div className="col-md-3 col-lg-3 col-xl-3">
                             <div className="footer__box">
                                 <div className="footer__logo">
-                                    <NavLink to={'/'}>
+                                    <NavLink onClick={()=>scrollToTop()} to={'/'}>
                                         <img src={logo} loading='lazy' alt="logo" />
                                     </NavLink>
                                 </div>
@@ -46,27 +47,27 @@ export default function MyFooter() {
                                 </h4>
                                 <ul className='footer__menu'>
                                     <li>
-                                        <NavLink to={'/services/Web Development'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Web Development'}>
                                             Web Development
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/services/App Development'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services/App Development'}>
                                             App Development
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/services/Ai Development'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Ai Development'}>
                                             Ai Development
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/services/Backend Development'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Backend'}>
                                             Backend Development
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/services/Technical Support'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services/Technical Support'}>
                                         Technical Support
                                         </NavLink>
                                     </li>
@@ -80,17 +81,17 @@ export default function MyFooter() {
                                 </h4>
                                 <ul className='footer__menu'>
                                     <li>
-                                        <NavLink to={'/about-us'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/about-us'}>
                                             About Us
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/services'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/services'}>
                                             Services
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={'/projects'}>
+                                        <NavLink onClick={()=>scrollToTop()} to={'/projects'}>
                                             Projects
                                         </NavLink>
                                     </li>

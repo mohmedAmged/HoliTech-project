@@ -7,6 +7,8 @@ import completeTask from '../../assets/svgIcons/completed-task.png'
 import clientRate from '../../assets/svgIcons/rating-stars.png'
 import expertTeam from '../../assets/svgIcons/expert.png'
 import { useEffect, useRef, useState } from 'react'
+import { scrollToTop } from '../../functions/scrollToTop';
+
 const counterNumbers = [
     {
         icon: completeTask,
@@ -56,7 +58,7 @@ export default function AboutUsSec() {
                                     At Holitech, our mission is to empower businesses with innovative technology solutions, tailored to their needs, driving growth and success.                                    </p>
                                 </div>
                             </div>
-                            <NavLink to={'/about-us'} className='nav-link'>
+                            <NavLink onClick={()=>scrollToTop()} to={'/about-us'} className='nav-link'>
                                 <div className="get__touch__btn hover__effect">
                                     About more
                                 </div>

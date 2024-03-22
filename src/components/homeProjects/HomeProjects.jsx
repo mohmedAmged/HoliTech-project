@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 import searchIcon from '../../assets/svgIcons/search-interface-symbol.png'
+import { scrollToTop } from '../../functions/scrollToTop';
 
 export default function HomeProjects({projcetCards}) {
     return (
@@ -19,7 +20,7 @@ export default function HomeProjects({projcetCards}) {
                         <div className="main__title">
                             <span>Case Study</span>
                             <h2>A diversified resilient portfolio.</h2>
-                            <NavLink to={'/projects'} className='nav-link'>
+                            <NavLink onClick={()=>scrollToTop()} to={'/projects'} className='nav-link'>
                                 <div className="get__touch__btn hover__effect">
                                     view all projects
                                 </div>
@@ -86,10 +87,10 @@ export default function HomeProjects({projcetCards}) {
                                                     {el?.title}
                                                 </h4>
                                                 <div className="project__hover">
-                                                    <NavLink to={`/projects/${el.title.toLowerCase()}`} className="nav-link case__btn">
-                                                        Case Study
+                                                    <NavLink onClick={()=>scrollToTop()} to={`/projects/${el.title.toLowerCase()}`} className="nav-link case__btn">
+                                                        View Details
                                                     </NavLink>
-                                                    <NavLink to={`/projects/${el.title.toLowerCase()}`}className="nav-link">
+                                                    <NavLink onClick={()=>scrollToTop()} to={`/projects/${el.title.toLowerCase()}`}className="nav-link">
                                                         <img src={searchIcon} alt="icon" />
                                                     </NavLink>
                                                 </div>

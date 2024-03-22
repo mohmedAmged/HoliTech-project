@@ -1,6 +1,7 @@
 import React from 'react'
 import './myServices.css'
 import { NavLink } from 'react-router-dom'
+import { scrollToTop } from '../../functions/scrollToTop';
 export default function MyServices({ servicesArray }) {
     return (
         <div className='myServices__handler sec_padding'>
@@ -10,7 +11,7 @@ export default function MyServices({ servicesArray }) {
                         <div className="main__title">
                             <span>what we do</span>
                             <h2>we work performed for client happy.</h2>
-                            <NavLink to={'/services'} className='nav-link'>
+                            <NavLink onClick={()=>scrollToTop()} to={'/services'} className='nav-link'>
                                 <div className="get__touch__btn hover__effect">
                                     view all services
                                 </div>
@@ -36,7 +37,7 @@ export default function MyServices({ servicesArray }) {
                                                 <p>
                                                     {item?.description}
                                                 </p>
-                                                <NavLink className="nav-link service__card__btn" 
+                                                <NavLink onClick={()=>scrollToTop()} className="nav-link service__card__btn" 
                                                 to={`/services/${item.title.toLowerCase()}`}>
                                                     read more <i className="bi bi-arrow-right-circle"></i>
                                                 </NavLink>
