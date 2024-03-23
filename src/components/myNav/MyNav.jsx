@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { scrollToTop } from '../../functions/scrollToTop';
+import {handleGetInTouch} from '../../functions/getInTouch'
 import { NavLink } from 'react-router-dom';
 import logo1 from '../../assets/logos/logo1.png'
 export default function MyNav({ scrollToggle }) {
@@ -52,8 +53,8 @@ export default function MyNav({ scrollToggle }) {
                             
                         </Nav>
                         <Nav>
-                            <NavLink  to={'/contact'} className='nav-link'>
-                                <div className="get__touch__btn hover__effect">
+                            <NavLink   className='nav-link'>
+                                <div onClick={handleGetInTouch} className="get__touch__btn hover__effect">
                                     get  in touch
                                 </div>
                             </NavLink>
@@ -120,8 +121,8 @@ export default function MyNav({ scrollToggle }) {
                                 </NavLink>
                             </Nav>
                             <Nav>
-                            <NavLink to={'/contact'} className='nav-link'>
-                                <div className="get__touch__btn hover__effect">
+                            <NavLink className='nav-link'>
+                                <div onClick={handleGetInTouch}  className="get__touch__btn hover__effect">
                                     <>
                                     get  in touch
                                     </>

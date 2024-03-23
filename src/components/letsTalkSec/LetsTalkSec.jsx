@@ -1,6 +1,7 @@
 import React from 'react'
 import './letsTalkSec.css'
 import { NavLink } from 'react-router-dom'
+import {handleGetInTouch} from '../../functions/getInTouch'
 export default function LetsTalkSec() {
     return (
         <div className='letsTalk__handler sec_padding'>
@@ -23,8 +24,8 @@ export default function LetsTalkSec() {
                             </div>
                         </div>
                     <div className="col-md-3 col-lg-4 col-xl-5 text-end">
-                    <NavLink to={'/contact'} className='nav-link talk_btn'>
-                                <div className="get__touch__btn hover__effect">
+                    <NavLink className='nav-link talk_btn'>
+                                <div onClick={handleGetInTouch} className="get__touch__btn hover__effect">
                                     get in touch
                                 </div>
                             </NavLink>

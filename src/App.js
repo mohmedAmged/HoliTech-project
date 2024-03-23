@@ -529,6 +529,7 @@ function App() {
     },
 
   ]
+
   const [scrollToggle, setScrollToggle] = useState(false);
   window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
