@@ -2,7 +2,7 @@
     position: relative;
     z-index: 1;
 }
-.image__left__demo::before{
+/* .image__left__demo::before{
     background: linear-gradient(233.77deg,rgba(250, 187, 60, 0.5) .94%,rgba(184, 140, 79, 0.3) 99.09%);
     bottom: 0;
     content: "";
@@ -12,7 +12,7 @@
     right: 0;
     top: 0;
     width: 100%;
-}
+} */
 .image__left__demo img{
     width: 100%;
     height: 450px;
