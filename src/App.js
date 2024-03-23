@@ -25,6 +25,13 @@ import novalMock from './assets/projectsImgs/novalMock.png'
 import hotelMock from './assets/projectsImgs/hotelMock.png'
 import timeMock from './assets/projectsImgs/timeMock.png'
 import MyFooter from './components/myFooter/MyFooter';
+import ScrollToTopButton from './components/scrollToTopButton/ScrollToTopButton';
+import logo1 from './assets/partnerLogos/logo1.png'
+import logo2 from './assets/partnerLogos/logo2.png'
+import logo3 from './assets/partnerLogos/logo3.png'
+import logo4 from './assets/partnerLogos/logo4.png'
+import logo5 from './assets/partnerLogos/logo5.png'
+import logo6 from './assets/partnerLogos/logo10.png'
 function App() {
   const projcetCards = [
     {
@@ -495,6 +502,33 @@ function App() {
       }
     },
   ]
+  const partnerArr = [
+    {
+      logo: logo1,
+      link: "https://www.namecheap.com/"
+    },
+    {
+      logo: logo2,
+      link: "https://ae.godaddy.com/"
+    },
+    {
+      logo: logo3,
+      link: "https://stripe.com/"
+    },
+    {
+      logo: logo4,
+      link: "https://www.envato.com/"
+    },
+    {
+      logo: logo5,
+      link: "https://themeforest.net/"
+    },
+    {
+      logo: logo6,
+      link: "https://www.figma.com/"
+    },
+
+  ]
   const [scrollToggle, setScrollToggle] = useState(false);
   window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
@@ -506,8 +540,9 @@ function App() {
   return (
     <>
       <MyNav scrollToggle={scrollToggle} />
+      <ScrollToTopButton />
       <Routes>
-        <Route path='/' element={<MyMainHome projcetCards={projcetCards} servicesArray={servicesArray} />} />
+        <Route path='/' element={<MyMainHome partnerArr={partnerArr} projcetCards={projcetCards} servicesArray={servicesArray} />} />
         <Route path='/services' element={<MyAllServices servicesArray={servicesArray} />} />
         <Route path='/services/:serviceName' element={<SingleServicePage servicesArray={servicesArray} servicesInformation={servicesInformation}/>} />
         <Route path='/about-us' element={<AboutUsPage />} />

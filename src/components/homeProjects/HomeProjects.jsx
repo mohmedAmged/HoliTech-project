@@ -17,7 +17,7 @@ export default function HomeProjects({projcetCards}) {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-7 col-xl-7">
-                        <div className="main__title">
+                        <div className="main__title black">
                             <span>Case Study</span>
                             <h2>A diversified resilient portfolio.</h2>
                             <NavLink onClick={()=>scrollToTop()} to={'/projects'} className='nav-link'>

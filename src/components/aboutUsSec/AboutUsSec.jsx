@@ -6,7 +6,6 @@ import aboutImgtwo from '../../assets/heroImgs/about-2.jpg'
 import completeTask from '../../assets/svgIcons/completed-task.png'
 import clientRate from '../../assets/svgIcons/rating-stars.png'
 import expertTeam from '../../assets/svgIcons/expert.png'
-import { useEffect, useRef, useState } from 'react'
 import { scrollToTop } from '../../functions/scrollToTop';
 
 const counterNumbers = [
